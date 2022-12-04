@@ -1,0 +1,139 @@
+@media   (max-Width: 576px) {
+    
+    
+    header {
+        position: relative;
+    }
+    header {
+        position: fixed;
+    }
+    .header-logo {
+        position: absolute;
+        width: 120px;
+        padding: 0;
+        height: 80px;
+    }
+
+    .header-links {
+        position: absolute;
+        display: flex;
+        width: 80%;
+        bottom: 0;
+        left: 0;
+        
+    }
+    .header-search {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        background: #000 !important;
+    }
+
+    .header-links input, .header-search-icon,.header-user-signUp, .header-user-signIn {
+        display: none;
+    }
+    .header-search-bars {
+        display: block;
+    }
+    
+    .header-nav {
+        display: none;
+        position: fixed;
+        width: 100%;
+        content: "";
+        background: rgba(255,255,255, 0.4);
+        margin: 0;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 100;
+        flex-wrap: wrap;
+    }
+
+    .header-nav-list {
+        position: absolute;
+        padding: 120px 0;
+        width: 40%;
+        height: 100%;
+        background: var(--black);
+        display: block;
+    }
+    .header-nav-list-item {
+        width: 100%;
+        margin: 8px 0;
+        padding: 8px;
+    }
+      
+    .header-nav-list-item:hover a {
+        background: var(--white);
+        color: var(--black);
+        padding: 16px 8px;
+    }
+    
+    .header-nav-list-item  > a {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        height: 24px; 
+        color: var(--white);
+        text-decoration: none;
+        font-size: 1.1rem;
+        
+    }
+    .header-nav-hoodie {
+        padding: 0 16px;
+    }
+    .header-nav-hoodie-list {
+        position: sticky;
+        
+    }
+    
+
+
+
+    .header-user {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        width: 100px;
+        height: 36px;
+        display: flex;
+    }
+    
+    .header-user-sign-icon {
+        font-size: 1.2rem;
+        display: block;
+    }
+    
+    .header-user-cart-item {
+        margin: 0;
+        font-size: 1.2rem;
+        padding:  8px;
+    }
+
+    main {
+        width: 100%;
+        
+    }
+
+
+    .list-img img{
+        height: 400px;
+    }
+    .list-product-item {
+        width: 50%;
+    }
+
+
+    .footer-list,.footer-list-item {
+        width: 100%;
+    }
+    .footer-list-item-nav {
+        
+        
+    }
+    .footer-list-item-nav li, .footer-list-item-address li {
+        text-align: center;
+        width: 100%;
+    }
+}
